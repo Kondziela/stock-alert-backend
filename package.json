@@ -1,0 +1,31 @@
+{
+  "name": "stock-alert-backend",
+  "version": "1.0.0",
+  "description": "Backend for Stock Alert Cheeki Breeki project",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc; node dist/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kondziela/stock-alert-backend.git"
+  },
+  "keywords": [
+    "stock",
+    "alert",
+    "cheeki",
+    "breeki"
+  ],
+  "author": "AKO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kondziela/stock-alert-backend/issues"
+  },
+  "homepage": "https://github.com/Kondziela/stock-alert-backend#readme",
+  "dependencies": {
+    "@types/node": "^12.12.8",
+    "express": "^4.17.1",
+    "typescript": "^3.7.2"
+  }
+}
